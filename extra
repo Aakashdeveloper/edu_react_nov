@@ -1,0 +1,59 @@
+https://nodejs.org/en/
+https://code.visualstudio.com/download
+Create Account >>> https://github.com/
+https://git-scm.com/downloads
+
+TabNine
+GitLens
+GitHistory
+eslint
+vscode-icons
+
+React
+
+React is frontend lib/framework which help to build
+single page application using component
+base structure.
+
+JSON
+> JavaScript Object Notation
+[
+    {
+        "id":1
+        "name":"John"
+        "city":"Amsterdam"
+    },
+    {
+        "id":2
+        "name":"Ankit"
+        "city":"Venice"
+    }
+]
+
+####
+package.json
+#####
+> entry point to application
+> meta data
+    > name
+    > version
+    > description
+> script( start, build , test)
+> packages
+
+////////////
+Step to generate package.json
+///////////
+**NodeJs must be install in your laptop
+> go inside folder where you want to generate package.json
+> npm init
+> answer all question
+> type "yes"
+
+////////////
+Step to install package
+///////////
+**NodeJs must be install in your laptop
+> go inside folder where you want to generate package.json
+> npm i packagename
+
