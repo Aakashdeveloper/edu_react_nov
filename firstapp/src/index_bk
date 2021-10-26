@@ -1,0 +1,33 @@
+//es6
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/header';
+import Footer from './component/footer';
+
+const App = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <h1>My React App</h1>
+            <h2>Edureka</h2>
+            <Footer/>
+        </React.Fragment>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))
+
+
+//es5
+/*
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+function App(){
+    return(
+        <h1>My React Es5 App</h1>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))
+*/

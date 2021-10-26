@@ -57,3 +57,72 @@ Step to install package
 > go inside folder where you want to generate package.json
 > npm i packagename
 
+>>>>>><<<<<<<<<
+
+
+
+////////
+set to generate react app
+////////////
+Window(with Admin access)
+
+// One Time Step //
+> open a cmd as administrator
+> npm i -g create-react-app
+> close cmd
+
+// Next Every Time You Need New App //
+> open cmd
+> navigate to folder where you want app
+> create-react-app appname
+
+Mac/Linux(with Admin access)
+// One Time Step //
+> open terminal
+> sudo npm i -g create-react-app
+> close cmd
+
+// Next Every Time You Need New App //
+> open terminal
+> navigate to folder where you want app
+> create-react-app appname
+
+
+////office laptop
+//Every Time You Need New App //
+> open terminal/cmd
+> navigate to folder where you want app
+> npx create-react-app appname
+
+react        >>> this is the main library 
+react-dom    >>> this help to display content on the screen
+react-script >>> this help to run the application
+
+es5> Ecma Script5
+es6> Ecma Script6
+
+function add(a,b){
+    var out = [a,b]
+    return out
+}
+
+add(1,2)
+
+////////component/////
+functional
+> dumb component
+> use for display purpose
+> cannot maintain state
+
+class
+> logical component
+> use for display purpose, api calling, logics
+> can maintain state
+
+////////
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+//////JavaScript/////////
+map
+filter
+indexof
