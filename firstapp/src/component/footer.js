@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = (props) => {
+    console.log(props)
     return(
         <>
             <hr/>
             <center>
-                <h3>&copy; Edureka</h3>
+                <h3>&copy; Edureka {props.month} {props.year}</h3>
             </center>
         </>
     )

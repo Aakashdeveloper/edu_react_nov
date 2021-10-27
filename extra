@@ -119,10 +119,30 @@ class
 > use for display purpose, api calling, logics
 > can maintain state
 
-////////
-https://getbootstrap.com/docs/5.0/getting-started/introduction/
+state
+> Act like a local variable
+> Every Component can have its own state
+> Scope of the state is in own component scope
+> Value of state can be updated (mutable)
+> Any data interaction will happen through state only
 
-//////JavaScript/////////
-map
-filter
-indexof
+Props
+> Help to transfer data from one component to another component
+> Value of props cannot be modified (immutable)
+> data can be transfer between nested components
+
+
+//////map//////
+var city = ["Delhi","Mumbai","London","Amsterdam"]
+
+//es5
+for(i=0;i<city.length;i++){
+    console.log(city[i])
+}
+
+//es6
+city.map((item) => { console.log(item)})
+
+function add(a,b){
+
+}

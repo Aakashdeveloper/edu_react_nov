@@ -1,0 +1,44 @@
+import React from 'react';
+import Header from './header';
+import Footer from './footer';
+
+const Home = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <div class="container">
+                <h1>My React App</h1>
+                <h2>Edureka</h2>
+                <button class="btn btn-primary">Click</button>
+                <button class="btn btn-success">Reset</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card" style={{width: '18rem'}}>
+                            <img src="https://i.ibb.co/TbVsznT/sarovar.jpg" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style={{width: '18rem'}}>
+                            <img src="https://i.ibb.co/TbVsznT/sarovar.jpg" class="card-img-top" alt="..."/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Footer/>
+           
+        </React.Fragment>
+    )
+}
+
+export default Home;
