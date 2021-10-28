@@ -5,7 +5,8 @@ class Header extends Component {
 
     constructor(){
        super() 
-
+       console.log("inside constructor")
+       
        this.state={
           title:'Developer Funnel',
           userInput:'User Text Here'
@@ -13,13 +14,22 @@ class Header extends Component {
 
     }
 
+    handleChange = (event) => {
+        // console.log("inside handleChange")
+        // console.log(event.target.value)
+        this.setState({userInput:event.target.value})
+        // here we are passing data to home with props
+        this.props.userText(event.target.value)
+    }
+
     render(){
+        console.log("inside render")
         return(
             <Fragment>
                 <header>
                     <div className="logo">{this.state.title}</div>
                     <center>
-                        <input/>
+                        <input onChange={this.handleChange}/>
                         <div style={{color:'white'}}>{this.state.userInput}</div>
                     </center>
                 </header>

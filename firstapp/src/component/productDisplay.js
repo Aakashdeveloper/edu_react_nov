@@ -27,3 +27,41 @@ const ProductDisplay = (props) => {
 }
 
 export default ProductDisplay;
+
+/*
+import React from 'react';
+
+const ProductDisplay = (props) => {
+
+    const renderProduct = props.prodData.map((item) => {
+        return(
+            <tr>
+                <td>{item.id}</td>
+                <td>{item.name}</td>
+                <td>{item.uses}</td>
+            </tr>
+        )
+        
+    })
+
+    return(
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Uses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {renderProduct}
+                </tbody>
+            </table>
+        </div>
+        
+    )
+}
+
+export default ProductDisplay;
+*/
