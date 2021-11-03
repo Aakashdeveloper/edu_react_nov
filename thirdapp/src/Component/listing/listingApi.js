@@ -30,6 +30,7 @@ class Listing extends Component {
     //call api when page load 
     componentDidMount(){
         let tripId = this.props.match.params.id;
+        sessionStorage.setItem('tripId',tripId);
         axios.get(`${url}/${tripId}`)
         .then((res) => {this.setState({hotellist:res.data})})
     }

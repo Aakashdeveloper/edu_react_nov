@@ -242,3 +242,9 @@ a.split('=')[1]
 (get) quickSearch>    https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+
+///////////
+JSON-Server
+
+npx json-server --watch booking.json --port 3400

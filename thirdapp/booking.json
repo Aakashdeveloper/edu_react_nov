@@ -1,0 +1,31 @@
+{
+  "booking": [
+    {
+      "id": 71780,
+      "hotel_name": "Snow Bliss",
+      "name": "John",
+      "email": "john@gmail.com",
+      "phone": "7687768787",
+      "cost": "2704",
+      "image": "https://i.ibb.co/7JFqdJv/snowbliss.jpg"
+    },
+    {
+      "id": 68857,
+      "hotel_name": "The Leela Goa",
+      "name": "Bhumika",
+      "email": "bhumika@gmail.com",
+      "phone": "7657656567",
+      "cost": "6599",
+      "image": "https://i.ibb.co/pzd8Cr0/leela.jpg"
+    },
+    {
+      "id": 60162,
+      "hotel_name": "Westwood Residence",
+      "name": "Aakash",
+      "email": "aakash@gmail.com",
+      "phone": "7675765675",
+      "cost": "3455",
+      "image": "https://i.ibb.co/7t4nXcL/westwood.jpg"
+    }
+  ]
+}
