@@ -36,6 +36,10 @@ const ListingDisplay = (props) => {
                         </div>
                     )
                 })
+            }else{
+                return(
+                    <h2>No Data For This Filter</h2>
+                )
             }
         }else{
             return(
