@@ -248,3 +248,17 @@ a.split('=')[1]
 JSON-Server
 
 npx json-server --watch booking.json --port 3400
+
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
+
+
+///////////
+npx i create-react-native-app appname
+
+npm i react-router-dom@5.4.0
+
+View > All display part of appliction
+Action > All Api call happen here
+Reducer > To manage updated state
+Store > To save the state
